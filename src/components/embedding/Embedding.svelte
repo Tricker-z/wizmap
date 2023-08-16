@@ -230,7 +230,62 @@
             />
             <label for="checkbox-contour-2">{myEmbedding?.groupNames[1]}</label>
           </div>
-        </button>
+
+          <div class="control-row">
+            <input
+              type="checkbox"
+              class="checkbox"
+              id="checkbox-contour-3"
+              name="checkbox-contour-3"
+              checked="{false}"
+              on:input="{e =>
+                displayCheckboxChanged(
+                  e,
+                  'contour',
+                  myEmbedding?.groupNames[2]
+                )}"
+            />
+            <label for="checkbox-contour-3">{myEmbedding?.groupNames[2]}</label>
+          </div>
+
+
+          <div class="control-row">
+            <input
+              type="checkbox"
+              class="checkbox"
+              id="checkbox-contour-4"
+              name="checkbox-contour-4"
+              checked="{false}"
+              on:input="{e =>
+                displayCheckboxChanged(
+                  e,
+                  'contour',
+                  myEmbedding?.groupNames[3]
+                )}"
+            />
+            <label for="checkbox-contour-4">{myEmbedding?.groupNames[3]}</label>
+          </div>
+
+
+          <div class="control-row">
+            <input
+              type="checkbox"
+              class="checkbox"
+              id="checkbox-contour-5"
+              name="checkbox-contour-5"
+              checked="{false}"
+              on:input="{e =>
+                displayCheckboxChanged(
+                  e,
+                  'contour',
+                  myEmbedding?.groupNames[4]
+                )}"
+            />
+            <label for="checkbox-contour-5">{myEmbedding?.groupNames[4]}</label>
+          </div>
+
+
+          </button>
       {/if}
     </button>
     <div class="flex-gap"></div>
@@ -307,7 +362,47 @@
             />
             <label for="checkbox-point-2">{myEmbedding?.groupNames[1]}</label>
           </div>
-        </button>
+
+          <div class="control-row">
+            <input
+              type="checkbox"
+              class="checkbox"
+              id="checkbox-point-3"
+              name="checkbox-point-3"
+              checked="{false}"
+              on:input="{e =>
+                displayCheckboxChanged(e, 'point', myEmbedding?.groupNames[2])}"
+            />
+            <label for="checkbox-point-3">{myEmbedding?.groupNames[2]}</label>
+          </div>
+
+          <div class="control-row">
+            <input
+              type="checkbox"
+              class="checkbox"
+              id="checkbox-point-4"
+              name="checkbox-point-4"
+              checked="{false}"
+              on:input="{e =>
+                displayCheckboxChanged(e, 'point', myEmbedding?.groupNames[3])}"
+            />
+            <label for="checkbox-point-4">{myEmbedding?.groupNames[3]}</label>
+          </div>
+
+          <div class="control-row">
+            <input
+              type="checkbox"
+              class="checkbox"
+              id="checkbox-point-5"
+              name="checkbox-point-5"
+              checked="{false}"
+              on:input="{e =>
+                displayCheckboxChanged(e, 'point', myEmbedding?.groupNames[4])}"
+            />
+            <label for="checkbox-point-5">{myEmbedding?.groupNames[4]}</label>
+          </div>
+
+          </button>
       {/if}
     </button>
     <div class="flex-gap"></div>
